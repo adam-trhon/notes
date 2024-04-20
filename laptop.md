@@ -7,5 +7,4 @@ Specs
 - Links from Vilem:
   - [Tips for Linux on Lenovo laptops](https://github.com/cszach/linux-on-lenovo-legion)
   - [Utility driver](https://github.com/johnfanv2/LenovoLegionLinux)
-  - [Alternate utility driver](https://github.com/BartoszCichecki/LenovoLegionToolkit)
   - [EnvyControl for switching GPU mode](https://github.com/bayasdev/envycontrol)
