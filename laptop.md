@@ -8,6 +8,16 @@ Specs
   - [Tips for Linux on Lenovo laptops](https://github.com/cszach/linux-on-lenovo-legion)
   - [Utility driver](https://github.com/johnfanv2/LenovoLegionLinux) (https://github.com/johnfanv2/LenovoLegionLinux/issues/163 issue of adding my laptop)
   - [EnvyControl for switching GPU mode](https://github.com/bayasdev/envycontrol)
+ 
+NVIDIA Card
+===========
+
+NVIDIA PRIME
+------------
+- https://wiki.archlinux.org/title/PRIME#PRIME_render_offload
+
+      sudo pacman -S nvidia-prime
+      # installs Packages (4) egl-wayland-2:1.1.13-1  eglexternalplatform-1.1-2  nvidia-utils-550.67-1  nvidia-prime-1.0-4
 
 Bluetooth/Sound
 ===============
