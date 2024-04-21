@@ -8,3 +8,18 @@ Specs
   - [Tips for Linux on Lenovo laptops](https://github.com/cszach/linux-on-lenovo-legion)
   - [Utility driver](https://github.com/johnfanv2/LenovoLegionLinux) (https://github.com/johnfanv2/LenovoLegionLinux/issues/163 issue of adding my laptop)
   - [EnvyControl for switching GPU mode](https://github.com/bayasdev/envycontrol)
+
+Bluetooth/Sound
+===============
+
+    sudo pacman -S bluez bluez-utils
+    sudo systemctl start bluetooth
+    bluetoothctl
+    bluetoothctl# power on
+    bluetoothctl# scan on
+    bluetoothctl# devices
+    bluetoothctl# pair 38:18:4C:19:E2:7C # Failed to connect: org.bluez.Error.Failed br-connection-profile-unavailable
+
+    sudo pacman -S pulseaudio-bluetooth
+    pulseaudio -k # from https://wiki.archlinux.org/title/Bluetooth#Audio
+    
