@@ -11,6 +11,9 @@ Specs
  
 NVIDIA Card
 ===========
+- Abandoned thread with some useful tips: https://bbs.archlinux.org/viewtopic.php?id=293100
+- Random article about Wayland on NVidia: https://www.maketecheasier.com/wayland-work-with-nvidia-graphics-cards/
+- Reddit thread about NVidia support (v545, there is v550 now): https://www.reddit.com/r/linux_gaming/comments/1arl2yg/comment/kqkw2xi/
 
 NVIDIA PRIME
 ------------
