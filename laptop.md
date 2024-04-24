@@ -22,6 +22,15 @@ NVIDIA PRIME
       sudo pacman -S nvidia-prime
       # installs Packages (4) egl-wayland-2:1.1.13-1  eglexternalplatform-1.1-2  nvidia-utils-550.67-1  nvidia-prime-1.0-4
 
+      sudo pacman -R xf86-video-nouveau
+      sudo pacman -S nvidia
+
+  - `nvidia nvidia_modeset nvidia_uvm nvidia_drm` to MODULES in /etc/mkinitcpio.conf
+  - `sudo mkinitcpio -P`
+  - `nvidia-drm.modeset=1` to GRUB_CMDLINE_LINUX_DEFAULT in /etc/default/grub
+  - `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+  
+
 Bluetooth/Sound
 ===============
 
