@@ -1,0 +1,2 @@
+- There is a [ROOT_HOME](https://docs.yoctoproject.org/ref-manual/variables.html#term-ROOT_HOME) variable that changes root home.
+- An example for out-of-tree linux driver is in `poky/meta-skeleton/recipes-kernel/hello-mod/hello-mod_0.1.bb`
