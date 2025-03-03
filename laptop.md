@@ -44,4 +44,15 @@ Bluetooth/Sound
 
     sudo pacman -S pulseaudio-bluetooth
     pulseaudio -k # from https://wiki.archlinux.org/title/Bluetooth#Audio
+
+System Setup
+============
+Steam Error 105
+---
+Fix it by setting up /etc/resolv.conf ([source](https://github.com/ValveSoftware/steam-for-linux/issues/10550)):
+
+    ln -sf ../run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+
+    
+
     
